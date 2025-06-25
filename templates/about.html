@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Cosmetics Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>COSMETICS ANALYSIS</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/story">Story</a></li>
+                <li><a href="/insights">Insights</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <img src="{{ url_for('static', filename='products.jpg') }}" alt="Product Showcase">
+        <div class="info">
+            <h2>Discover Your Perfect Skincare</h2>
+            <p>Find the best products for your skin with expert analysis and recommendations.</p>
+            <ul>
+                <li><strong>Tailored for You:</strong> Explore top skincare brands matched to your skin type.</li>
+                <li><strong>Easy and Informative:</strong> Get clear, straightforward advice without jargon.</li>
+                <li><strong>Trusted Recommendations:</strong> Our team provides reliable skincare insights.</li>
+                <li><strong>Start Your Journey:</strong> Find what works best for you with confidence.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
